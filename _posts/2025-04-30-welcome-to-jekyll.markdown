@@ -25,4 +25,4 @@ This blog isn't meant to be perfect. It's meant to be mine — honest, evolving,
 
 Thanks for reading, and welcome!
 
-– Teruo Nakamine
+– Teruo
