@@ -19,7 +19,7 @@ Reflections on growing as a professional
 
 Productivity, habits, and staying sane in a digital world
 
-Random cool stuff — ideas, tools, books, japanese, maybe even some philosophy
+Random cool stuff — ideas, tools, books, Japanese, maybe even some philosophy
 
 This blog isn't meant to be perfect. It's meant to be mine — honest, evolving, and hopefully useful to someone out there.
 

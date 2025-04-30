@@ -21,7 +21,7 @@
 title: Teruo's Journal
 email: hi@teruo.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Learnings on software, productivity, and digital balance —
+  Learnings on software, productivity, and Japanese —
   exploring code, habits, and ideas for a smarter workflow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://teruo.dev" # the base hostname & protocol for your site, e.g. http://example.com
