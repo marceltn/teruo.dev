@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! I'm Teruo, a husband, pet father and software engineer passionate about building thoughtful, user-friendly experiences on the web. I enjoy working on creative projects, learning new technologies, and sharing what I discover along the way.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This site is a place where I showcase my work, write about things that interest me, and experiment with new ideas. Thanks for stopping by!
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<p>
+  © 2025 Teruo Nakamine. Content licensed under 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
+  Code licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+</p>
 
-
-[jekyll-organization]: https://github.com/jekyll

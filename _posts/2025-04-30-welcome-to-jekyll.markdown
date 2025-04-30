@@ -1,29 +1,28 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello, world"
 date:   2025-04-30 08:25:48 +0900
-categories: jekyll update
+categories: ideas
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Hello, world!
 
-`YEAR-MONTH-DAY-title.MARKUP`
+I’ve finally decided to start this blog — not because I have all the answers, but because I’m full of thoughts I want to explore, share, and revisit. This space is going to be my personal journal where I document ideas about life, software engineering, career growth, lifestyle and other cool things that catch my curiosity along the way.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I’ve always believed that writing is a great way to think clearly. Whether it’s a technical problem I’m solving, a lesson I’m learning in my career, or just something interesting I noticed in everyday life — I want to put it into words, both for myself and anyone else who might find it useful (or at least relatable).
 
-Jekyll also offers powerful support for code snippets:
+Some of the things I plan to write about:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Lessons learned from building and breaking things in code
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Reflections on growing as a professional
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Productivity, habits, and staying sane in a digital world
+
+Random cool stuff — ideas, tools, books, japanese, maybe even some philosophy
+
+This blog isn't meant to be perfect. It's meant to be mine — honest, evolving, and hopefully useful to someone out there.
+
+Thanks for reading, and welcome!
+
+– Teruo Nakamine
