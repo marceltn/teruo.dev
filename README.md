@@ -12,6 +12,7 @@ g++ -v
 make -v
 
 gem install jekyll bundler
+bundle install
 ```
 
 # up and running
