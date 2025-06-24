@@ -12,6 +12,7 @@ g++ -v
 make -v
 
 gem install jekyll bundler
+bundle config set --local path 'vendor/bundle'
 bundle install
 ```
 
