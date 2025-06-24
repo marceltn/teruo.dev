@@ -34,6 +34,25 @@ Cool. But where’s the header?
 
 Digging into the *minima* theme’s structure, you will find the <a href="https://github.com/jekyll/minima/blob/0b7ca6bbdb782a646f8e7b78b1a29fd5032ad4d3/_layouts/base.html#L4" target="_blank" rel="noopener noreferrer">base.html file</a> that points to <a href="https://github.com/jekyll/minima/blob/0b7ca6bbdb782a646f8e7b78b1a29fd5032ad4d3/_includes/head.html#L12" target="_blank" rel="noopener noreferrer">head.html</a> file that refers to `custom-head.html` file. To add the HTML header, should be in this file but in your project.
 
+I added only a configuration to collect analytics data only when it's live. Because I don't want to have metrics when I'm developing locally. So this condition will be fine:
+
+{% highlight liquid mark_lines="1 3" %}
+{% raw %}{%- if jekyll.environment == 'production' %}
+  <!-- your script analytics here -->
+{%- endif -%}{% endraw %}
+{% endhighlight %}
+
+And to have it work with Github actions, just add `JEKYLL_ENV` when building your website:
+
+{% highlight yaml mark_lines="5" %}
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+{% endhighlight %}
+
+
 When I render the website the layout seems a little different from the demo, so I realized I was using an older version (v2) and not the latest (v3).
 
 Following the <a href="https://en.wikipedia.org/wiki/Broken_windows_theory" target="_blank" rel="noopener noreferrer">broken windows theory</a>, I decided to clean up and upgrade the theme. The <a href="https://github.com/jekyll/minima" target="_blank" rel="noopener noreferrer">minima GitHub repo</a> has a good instructions on how to use the newer version.
