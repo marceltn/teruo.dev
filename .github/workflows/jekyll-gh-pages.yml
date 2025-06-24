@@ -6,9 +6,9 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "_posts/**.markdown"
-      - "!_posts/_*.markdown"
-      - "*.markdown"
+      - "_posts/**.md"
+      - "!_posts/_*.md"
+      - "*.md"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
