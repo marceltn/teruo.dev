@@ -9,8 +9,6 @@ categories:
   - engineering
 ---
 
-# When Open Source Saved My Data Pipeline
-
 ## Context & Motivation
 I ran into a real production issue while working with MariaDB 11.4 and TapData: **CDC (Change Data Capture) was simply not working for MariaDB versions greater than 8** in my scenario. This wasn’t a tuning problem or a missing flag. After digging into it, the limitation was clearly inside the connector’s implementation.
 
